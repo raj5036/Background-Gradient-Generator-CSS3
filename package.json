@@ -1,0 +1,14 @@
+{
+  "name": "background-gradient_generator",
+  "version": "1.0.0",
+  "description": "\"An app that can generate background Gradient based on User Inputs\"",
+  "main": "index.js",
+  "scripts": {
+    "build":"browserify index.js > bundle.js && live-server"
+  },
+  "author": "Raj",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
